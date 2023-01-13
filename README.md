@@ -1,5 +1,9 @@
-# REST APIs with Express.js and Node.js
+# REST APIs with Express.js and Node.js #
+
 This repository outlines how to create REST APIs using Express.js in Node.js.</br>
+
+If you would like to clone the repository, make sure to use npm to install the needed node modules when downloaded.</br>
+
 **Overview and Inspiration:**
 </br>
  I was inspired to create this repo to assist mobile developersand others in understanding how they can leverage this powerful stack in adding additional capability to their application. In my own journey, as I learned these concepts and was able to apply them in my own app projects, I found it incredibly helpful to create mental models on how these capabilities sit within the mobile application framework. </br>
