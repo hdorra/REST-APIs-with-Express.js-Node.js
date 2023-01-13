@@ -1,4 +1,4 @@
-# REST-APIs-with-Express.js-Node.js
+# REST APIs with Express.js and Node.js
 This repository outlines how to create REST APIs using Express.js in Node.js.</br>
 **Overview and Inspiration:**
 </br>
