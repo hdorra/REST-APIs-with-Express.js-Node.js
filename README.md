@@ -6,10 +6,10 @@ If you would like to clone the repository, make sure to use npm to install the n
 
 **Overview and Inspiration:**
 </br>
- I was inspired to create this repo to assist mobile developersand others in understanding how they can leverage this powerful stack in adding additional capability to their application. In my own journey, as I learned these concepts and was able to apply them in my own app projects, I found it incredibly helpful to create mental models on how these capabilities sit within the mobile application framework. </br>
+ I was inspired to create this simple walkthrough so as to provide some insight to developers on how they can leverage these powerful tools for their applications. In my own journey, as I learned these concepts and was able to apply them in my own app projects, I found it incredibly helpful to first understand the basic fundamentals so that I can have a solid conceptual mental model on how these tools integrate within the mobile application framework.</br>
  
 ***Disclaimer:***</br>
-This is intentionally made very basic – no backend database and no introduction to environment variables. This walkthrough will also only cover Post and Get requests without a database backend (for illustrative purposes). challenge yourself to expand on that to include update and delete requests. As you learn these steps, extrapolating to include additional improvements (there are many) can be done. But let us take this one step at a time.</br>
+This is intentionally made very basic – no backend database and no introduction to environment variables. This walkthrough will also only cover Post and Get requests without a database backend (for illustrative purposes). Challenge yourself to expand on that to include update and delete requests. As you learn these steps, extrapolating to include additional improvements (there are many) can be done. But let us take this one step at a time.</br>
 
 **Tech Stack**</br>
       1.	Node.js </br>
@@ -23,7 +23,7 @@ This is intentionally made very basic – no backend database and no introductio
 
 **Steps/Walkthrough:**</br>
 
-***Section 1: Setup and Creating a GET request:***</br>
+## Section 1: Setup and Creating a GET Request </br>
 1.	Create a folder on your desktop (or any other location).</br>
 2.	Open a new terminal and type:
   ```npm init -y.```
@@ -177,8 +177,7 @@ o	Let’s try this out, in Postman, put a 3 instead of the 1 in the url. You see
 •	The final statement is telling us that if it is found (and therefore, the if condition is not met), then you return the object we requested (in this case, the glove).
 </br>
 
-***Section 2: Creating a POST request:***
-</br>
+## Section 2: Creating a POST Request </br>
 1.	In Section 1, we saw how to fetch a resource using the GET request. Now we will look at how we can create an item using the POST request.</br>
           a.	The post method will have a second parameter, which is the (req, res), where the req object actually contains the data we want to add in our array.
           So to do that, we need a way to pass this request object so we can extract data from it (so we are going to use some middleware). </br>
